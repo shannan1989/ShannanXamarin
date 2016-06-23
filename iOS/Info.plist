@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDisplayName</key>
-	<string>Xamarin</string>
+	<string>CodingHard</string>
 	<key>CFBundleName</key>
-	<string>Xamarin</string>
+	<string>CodingHard</string>
 	<key>CFBundleIdentifier</key>
-	<string>net.shannanshuibei.xamarin</string>
+	<string>net.shannanshuibei.codinghard</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>

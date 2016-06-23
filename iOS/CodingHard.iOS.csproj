@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProjectGuid>{A8FE7082-9666-4D74-B0A7-F0F6C8FBA974}</ProjectGuid>
+    <ProjectGuid>{C371AEED-6044-485F-A9C2-1A7F260DD7FB}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Xamarin.iOS</RootNamespace>
-    <AssemblyName>Xamarin.iOS</AssemblyName>
+    <RootNamespace>CodingHard.iOS</RootNamespace>
+    <AssemblyName>CodingHard.iOS</AssemblyName>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
@@ -104,9 +104,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Xamarin\Xamarin.csproj">
-      <Project>{715184F5-950B-454D-A78D-937881A1073F}</Project>
-      <Name>Xamarin</Name>
+    <ProjectReference Include="..\CodingHard\CodingHard.csproj">
+      <Project>{490ADFB0-9D10-436A-98FB-138C33EACCF2}</Project>
+      <Name>CodingHard</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

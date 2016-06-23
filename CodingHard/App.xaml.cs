@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace Xamarin
+namespace CodingHard
 {
 	public partial class App : Application
 	{
@@ -8,7 +8,7 @@ namespace Xamarin
 		{
 			InitializeComponent();
 
-			MainPage = new XamarinPage();
+			MainPage = new CodingHardPage();
 		}
 
 		protected override void OnStart()

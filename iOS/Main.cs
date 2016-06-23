@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace Xamarin.iOS
+namespace CodingHard.iOS
 {
 	public class Application
 	{

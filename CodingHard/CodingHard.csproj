@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{715184F5-950B-454D-A78D-937881A1073F}</ProjectGuid>
+    <ProjectGuid>{490ADFB0-9D10-436A-98FB-138C33EACCF2}</ProjectGuid>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UseMSBuildEngine>true</UseMSBuildEngine>
     <OutputType>Library</OutputType>
-    <RootNamespace>Xamarin</RootNamespace>
-    <AssemblyName>Xamarin</AssemblyName>
+    <RootNamespace>CodingHard</RootNamespace>
+    <AssemblyName>CodingHard</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
   </PropertyGroup>
@@ -31,14 +31,14 @@
   </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
-    <EmbeddedResource Include="XamarinPage.xaml" />
+    <EmbeddedResource Include="CodingHardPage.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="XamarinPage.xaml.cs">
-      <DependentUpon>XamarinPage.xaml</DependentUpon>
+    <Compile Include="CodingHardPage.xaml.cs">
+      <DependentUpon>CodingHardPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

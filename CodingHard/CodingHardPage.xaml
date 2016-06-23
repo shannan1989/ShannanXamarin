@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:CodingHard" x:Class="CodingHard.CodingHardPage">
+	<TabbedPage.Children>
+		<ContentPage Title="Profile">
+			<StackLayout>
+				<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center"/>
+				<Button Text="Click me!" Clicked="Button_Clicked"/>
+			</StackLayout>
+		</ContentPage>
+		<ContentPage Title="Settings">
+		</ContentPage>
+	</TabbedPage.Children>
+</TabbedPage>

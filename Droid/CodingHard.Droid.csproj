@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{039E5007-C95D-4F8F-87F5-9AC7C8D88A26}</ProjectGuid>
+    <ProjectGuid>{72B8EFD0-E7D2-49BB-A271-9E2B5279FAEB}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>Xamarin.Droid</RootNamespace>
-    <AssemblyName>Xamarin.Droid</AssemblyName>
+    <RootNamespace>CodingHard.Droid</RootNamespace>
+    <AssemblyName>CodingHard.Droid</AssemblyName>
     <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
@@ -82,9 +82,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Xamarin\Xamarin.csproj">
-      <Project>{715184F5-950B-454D-A78D-937881A1073F}</Project>
-      <Name>Xamarin</Name>
+    <ProjectReference Include="..\CodingHard\CodingHard.csproj">
+      <Project>{490ADFB0-9D10-436A-98FB-138C33EACCF2}</Project>
+      <Name>CodingHard</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
