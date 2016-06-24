@@ -2,9 +2,11 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:CodingHard" x:Class="CodingHard.CodingHardPage">
 	<TabbedPage.Children>
 		<ContentPage Title="Profile">
-			<StackLayout>
-				<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center"/>
-				<Button Text="Click me!" Clicked="Button_Clicked"/>
+			<StackLayout Spacing="20" Padding="20" VerticalOptions="Center">
+				<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+				<Entry Placeholder="UserName" Text="{Binding Username}" />
+				<Entry Placeholder="Password" Text="{Binding Password}" IsPassword="true" />
+				<Button Text="Login" BackgroundColor="#77d065" TextColor="White" />				
 			</StackLayout>
 		</ContentPage>
 		<ContentPage Title="Settings">
