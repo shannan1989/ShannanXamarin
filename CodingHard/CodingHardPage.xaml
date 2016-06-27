@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:CodingHard" x:Class="CodingHard.CodingHardPage">
 	<TabbedPage.Children>
-		<ContentPage Title="Profile">
+		<ContentPage Title="Login">
 			<StackLayout Spacing="20" Padding="20" VerticalOptions="Center">
 				<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
 				<Entry Placeholder="UserName" Text="{Binding Username}" />
 				<Entry Placeholder="Password" Text="{Binding Password}" IsPassword="true" />
-				<Button Text="Login" BackgroundColor="#77d065" TextColor="White" />				
+				<Button Text="Login" BackgroundColor="#77d065" TextColor="White" />
 			</StackLayout>
 		</ContentPage>
-		<ContentPage Title="Settings">
-		</ContentPage>
+		<local:EffectsPage Title="Effects" />
+		<local:NumericValidationPage Title="Numeric" />
+		<ContentPage Title="Settings" />
 	</TabbedPage.Children>
 </TabbedPage>
