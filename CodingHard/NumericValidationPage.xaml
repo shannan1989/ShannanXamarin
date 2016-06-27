@@ -2,8 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:CodingHard" x:Class="CodingHard.NumericValidationPage">
 	<ContentPage.Content>
 		<StackLayout Padding="0,20,0,0">
-			<Label Text="Red when the number is not valid" FontSize="Small"/>
-			<Entry Placeholder="Enter a System.Double" PlaceholderColor="Blue" local:NumericValidationBehavior.Validation="true"/>
+			<Label Text="Red when the number is not valid" FontSize="Small" />
+			<Entry Placeholder="Enter a System.Double" PlaceholderColor="Blue" local:NumericValidationBehavior.Validation="true" />
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>
