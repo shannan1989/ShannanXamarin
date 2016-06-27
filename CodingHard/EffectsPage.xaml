@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:CodingHard" x:Class="CodingHard.EffectsPage">
+	<ContentPage.Content>
+		<StackLayout>
+			<Grid Padding="0,20,0,0">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="auto" />
+					<RowDefinition Height="auto" />
+				</Grid.RowDefinitions>
+				<Label Grid.Row="0" Text="Effects Demo" FontAttributes="Bold" HorizontalOptions="Center" />
+				<Entry Grid.Row="1" x:Name="entry" Text="Effect attached to an Entry" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+					<Entry.WidthRequest>
+						<OnPlatform x:TypeArguments="x:Double" iOS="220" Android="220" WinPhone="250" />
+					</Entry.WidthRequest>
+				</Entry>
+			</Grid>
+			<Grid Padding="0,20,0,0">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="auto" />
+					<RowDefinition Height="auto" />
+				</Grid.RowDefinitions>
+				<Label Grid.Row="0" Text="Effects Demo with a Behavior" FontAttributes="Bold" HorizontalOptions="Center" />
+				<Label Grid.Row="1" Text="Label Shadow Effect" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+					<Label.Behaviors>
+						<local:EffectBehavior Group="Shannan" Name="LabelShadowEffect" />
+					</Label.Behaviors>
+				</Label>
+			</Grid>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
