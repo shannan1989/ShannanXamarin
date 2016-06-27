@@ -1,9 +1,9 @@
 ﻿using Xamarin.Forms;
+
 namespace CodingHard
 {
 	public static class NumericValidationBehavior
 	{
-
 		public static readonly BindableProperty ValidationProperty = BindableProperty.CreateAttached("Validation", typeof(bool), typeof(NumericValidationBehavior), false, propertyChanged: OnValidationChanged);
 
 		public static bool GetValidation(BindableObject bindable)
