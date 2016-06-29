@@ -6,8 +6,8 @@
 	<ContentPage.Content>
 		<StackLayout Spacing="20" Padding="20" VerticalOptions="StartAndExpand">
 			<Label Text="Welcome to Shannan Studio!" VerticalOptions="Center" HorizontalOptions="Center" />
-			<Entry Placeholder="Username" Text="{Binding Username}" />
-			<Entry Placeholder="Password" Text="{Binding Password}" IsPassword="true" />
+			<Entry x:Name="username" Placeholder="Username" />
+			<Entry x:Name="password" Placeholder="Password" IsPassword="true" />
 			<Button Text="Login" BackgroundColor="#77d065" TextColor="White" Clicked="Login_Clicked" />
 			<Label x:Name="messageLabel" />
 		</StackLayout>

@@ -10,16 +10,24 @@ namespace CodingHard
 		public LoginPage()
 		{
 			InitializeComponent();
+
+
 		}
 
-		void SignUp_Clicked(object sender, EventArgs e)
+		async void SignUp_Clicked(object sender, EventArgs e)
 		{
-			
+			await Navigation.PushAsync(new SignUpPage());
 		}
 
-		void Login_Clicked(object sender, EventArgs e)
+		async void Login_Clicked(object sender, EventArgs e)
 		{
-			
+			var user = new User()
+			{
+				Username = username.Text.Trim(),
+				Password = password.Text.Trim()
+			};
+
+
 		}
 	}
 }
