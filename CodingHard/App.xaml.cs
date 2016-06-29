@@ -4,11 +4,16 @@ namespace CodingHard
 {
 	public partial class App : Application
 	{
+		public static TodoItemManager TaskManager { get; private set; }
+
 		public App()
 		{
 			InitializeComponent();
 
-			MainPage = new CodingHardPage();
+			TaskManager = new TodoItemManager(new RestService());
+
+			MainPage = new NavigationPage(new TodoListPage());
+			MainPage = new NavigationPage(new LoginPage());
 		}
 
 		protected override void OnStart()
